@@ -2,16 +2,24 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;    
+       
 
 /**
- * This is just a demo for you, please run it on JDK17 (some statements may be not allowed in lower version).
+ * This is just a demo for you, please run it on JDK17
+ * (some statements may be not allowed in lower version).
  * This is just a demo, and you can extend and implement functions
  * based on this demo, or implement it in a different way.
  */
 public class OnlineCoursesAnalyzer {
-
+    
     List<Course> courses = new ArrayList<>();
 
     public OnlineCoursesAnalyzer(String datasetPath) {
